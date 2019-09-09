@@ -1,0 +1,22 @@
+@mixin button-hover {
+  &:hover {
+    filter: brightness(0.8) drop-shadow(.2rem .4rem .6rem rgba(0,0,0,0.2));
+  }
+}
+
+@mixin max_site_width {
+  max-width: 80rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+@mixin font-montserrat($weight: 400) {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: $weight;
+}
+
+@mixin font-opensans($weight: 400) {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: $weight;
+}
